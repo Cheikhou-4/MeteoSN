@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "@angular-devkit/build-angular": "^20.2.2"
-  },
-  "dependencies": {
-    "@angular/platform-browser-dynamic": "^20.2.4",
-    "@angular/router": "^20.2.4"
-  }
-}
