@@ -1,0 +1,26 @@
+body, .min-vh-100 {
+	font-family: 'Montserrat', Arial, sans-serif;
+}
+.animated-bg {
+	position: fixed;
+	top: 0; left: 0; width: 100vw; height: 100vh;
+	z-index: -1;
+	background: linear-gradient(135deg,#e3f0ff 0%,#b3d8ff 100%);
+	overflow: hidden;
+}
+.cloud {
+	position: absolute;
+	background: rgba(255,255,255,0.7);
+	border-radius: 50%;
+	box-shadow: 60px 0 40px -20px #fff, 120px 0 60px -30px #fff;
+	animation: cloudmove 40s linear infinite;
+}
+@keyframes cloudmove {
+	0% { left: -200px; }
+	100% { left: 100vw; }
+}
+.sticky-header {
+	position: sticky; top: 0; z-index: 10;
+	background: linear-gradient(90deg,#1976d2 0%,#64b5f6 100%);
+	box-shadow: 0 2px 12px #1976d2a0;
+}
